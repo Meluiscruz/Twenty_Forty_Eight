@@ -11,9 +11,12 @@
 ![Issues](https://img.shields.io/github/issues/Meluiscruz/Twenty_Forty_Eight.svg)
 ![Tags](https://img.shields.io/github/tag/Meluiscruz/Twenty_Forty_Eight.svg)
 
-## How to play
+## How to run an play
 
-How to play: Use your arrow keys to move the tiles. Tiles with the same number merge into one when they touch. Add them up to reach 2048!
+1. Download the project
+2. Open a CLI on the project directory and enter the following: ```python main.py```
+3. A 4x4 window will be opened after you enter the command
+4. Use your arrow keys to move the tiles. Tiles with the same number merge into one when they touch. Add them up to reach 2048!
 
 ## Scope of the project
 
