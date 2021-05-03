@@ -203,7 +203,6 @@ class Game(tk.Frame): #El argumento es la clase que estoy heredando
         self.add_new_tile()
         self.update_GUI()
         self.game_over()
-        self.game_over()
 
 
     # Are there any possible moves?
@@ -214,6 +213,7 @@ class Game(tk.Frame): #El argumento es la clase que estoy heredando
                 if self.matrix[i][j] == self.matrix[i][j + 1]:
                     return True
         return False
+
 
     def vertical_move_exist(self):
         for i in range(3):
